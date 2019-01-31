@@ -86,11 +86,22 @@ let sectioned : bool = false;;
 
 
 (*======================================================================
- 1.i. Time estimate Please give us an honest (if approximate) estimate
- of how long (in minutes) this problem set took you to complete
- including both following the setup instructions and filling out this
- file. We care about your responses and will use them to help guide us
- in creating future assignments.
+1.i. Time estimate: Please give us an honest (if approximate) estimate
+of how long (in minutes) this problem set took you to complete,
+including both following the setup instructions and filling out this
+file, by editing the line:
+
+    let minutes_spent_on_pset () : int = failwith "not provided" ;;
+
+to replace the value of the function with an approximate estimate of
+how long (in minutes) the assignment took you to complete. For
+example, if you spent 6 hours on this assignment, you should change
+the line to:
+
+    let minutes_spent_on_pset () : int = 360 ;;
+
+We care about your responses and will use them to help guide us in
+creating future assignments.
 ......................................................................*)
 
 let minutes_spent () : int = failwith "not provided" ;;
